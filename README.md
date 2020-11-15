@@ -2,7 +2,10 @@
 
 This is very basic express API with Elasticsearch from 2 indices (books and names-frequency), where `books` index has the map below:
  
- `{ 
+
+  
+ 
+    {
     "properties": {
       "title": {
         "type": "text",
@@ -13,7 +16,8 @@ This is very basic express API with Elasticsearch from 2 indices (books and name
         "analyzer": "english"
       }
     }
- }`
+ 
+ 
 
 ### GET /
 Return as json all names frequency from first-names.txt (you can find it at src/books/) in descending order by frequency and in same time write results in output.txt

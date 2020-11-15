@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+#webstorm
+.idea/
+
+#vscode
+/.vscode
+
+.build/
